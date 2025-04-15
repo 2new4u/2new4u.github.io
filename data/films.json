@@ -3,8 +3,56 @@
     "Movie Title": "Alien",
     "Director": "Ridley Scott",
     "Release Year": 1979,
-    "Genre": "Sci-Fi/Thriller",
-    "Your Rating": 9.5,
-    "Notes": "A brilliant Sci-Fi horror film"
+    "Genre": "Sci-Fi/Horror",
+    "Your Rating": 10,
+    "Notes": "A perfect sci-fi horror film, definitely a must see for everyone!"
+  },
+  {
+    "Movie Title": "Aliens",
+    "Director": "James Cameron",
+    "Release Year": 1986,
+    "Genre": "Sci-Fi/Horror/Action/Adventure",
+    "Your Rating": 9,
+    "Notes": "Action-orientated approach to the universe, very different from the first, but still an amazing film."
+  },
+  {
+    "Movie Title": "Alien 3",
+    "Director": "David Fincher",
+    "Release Year": 1992,
+    "Genre": "Sci-Fi/Horror",
+    "Your Rating": 5,
+    "Notes": "A disappointment compared to the first two films, I still enjoyed it but it was nowhere near as good."
+  },
+  {
+    "Movie Title": "Alien: Resurrection",
+    "Director": "Jean-Pierre Jeunet",
+    "Release Year": 1997,
+    "Genre": "Sci-Fi/Horror",
+    "Your Rating": 6,
+    "Notes": "A fun film and a slight improvement on Alien 3, but still a long way from the greatness of Alien."
+  },
+  {
+    "Movie Title": "Prometheus",
+    "Director": "Ridley Scott",
+    "Release Year": 2012,
+    "Genre": "Sci-Fi/Horror",
+    "Your Rating": 7,
+    "Notes": "Good but not great, the film itself wasn't bad, but I wish it wasn't set in the Alien universe."
+  },
+  {
+    "Movie Title": "Alien: Covenant",
+    "Director": "Ridley Scott",
+    "Release Year": 2017,
+    "Genre": "Sci-Fi/Horror",
+    "Your Rating": 5,
+    "Notes": "A shameful addition to the series."
+  },
+  {
+    "Movie Title": "Alien: Romulus",
+    "Director": "Fede Álvarez",
+    "Release Year": 2024,
+    "Genre": "Sci-Fi/Horror",
+    "Your Rating": 9,
+    "Notes": "A must see for all Alien fans who have been longing for a taste of old school sci-fi horror."
   }
 ]
