@@ -4,11 +4,12 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
-  <title>🦦🦦</title>
+  <meta name="description" content="An otter's den inside the void." />
+  <meta name="author" content="new" />
+  <title>2new4u</title>
   <!-- Favicon-->
-  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🦦</text></svg>">
   <!-- Core theme CSS (includes Bootstrap)-->
   <link href="css/template.css" rel="stylesheet" />
   <!-- Custom CSS-->
@@ -19,10 +20,10 @@
   <div class="d-flex" id="wrapper">
     <!-- Sidebar-->
     <div class="border-end bg-white" id="sidebar-wrapper">
-      <div class="sidebar-heading border-bottom bg-light">Otter's Den</div>
+      <div class="sidebar-heading border-bottom bg-light">2new4u</div>
       <div class="list-group list-group-flush">
         <a class="list-group-item list-group-item-action list-group-item-light p-3" href="index.html">Home</a>
-        <a class="list-group-item list-group-item-action list-group-item-light p-3" href="films.html">Films</a>
+        <a class="list-group-item list-group-item-action list-group-item-light p-3" href="films.html">Film List</a>
       </div>
     </div>
     <!-- Page content wrapper-->
@@ -37,23 +38,28 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
             <li class="nav-item active">
-              <a class="nav-link" href="#!">export</a>
+              <a class="nav-link" href="#!">Export</a>
             </li>
           </ul>
         </div>
       </nav>
       <!-- Page content-->
       <div class="container-fluid">
-        <h1 class="mt-4">Welcome to the romp!</h1>
+        <h1 class="mt-4">The greatest film list ever made!</h1>
+        <p>This is where I keep track of (almost) all the films I've ever seen. I started this list in 2025, so some
+          notes are based on what I remember, while others are based on my impressions immediately after watching the
+          film.<br>Ratings: 1-Dreadful, 2-Terrible, 3-Bad, 4-Underwhelming, 5-Average, 6-Solid, 7- Good,
+          8-Great, 9-Excellent, 10-Masterpiece</p>
+        <input type="text" id="filmSearch" onkeyup="filmSearch()" placeholder="Search for a film title...">
         <table id="filmTable">
           <thead>
             <tr>
-              <th>Movie Title</th>
-              <th>Director</th>
-              <th>Release Year</th>
-              <th>Genre</th>
-              <th>Your Rating</th>
-              <th>Notes</th>
+              <th onclick="sortFilms(0)">Title</th>
+              <th onclick="sortFilms(1)">Director</th>
+              <th onclick="sortFilms(2)">Release Year</th>
+              <th onclick="sortFilms(3)">Genre</th>
+              <th onclick="sortFilms(4)">My Rating</th>
+              <th onclick="sortFilms(5)">Notes</th>
             </tr>
           </thead>
           <tbody>
